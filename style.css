@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Donna";
+    src: url(Amellia.ttf)
+}
+
+body {
+    background-image: url(ofical.jpg);
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#perfil {
+    margin: 100px auto 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.img-perfil {
+    border-radius: 50%;
+    width: 210px;
+    height: 210px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    background-color: #f9004d;
+    border-radius: 20px 20px 0 0;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+#logo>p {
+    margin: 0 20px
+}
+
+p {
+    font-family: "Donna";
+    font-size: 2.5em;
+    color: #fff
+}
+
+#sub-titulo {
+    font-size: 1.4em;
+    color: #fff;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.73);
+    width: 350px;
+    height: 100vh;
+    margin: auto
+}
+
+main {
+    padding: 25px 0px;
+    background-color: #FFCFED;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.73);
+    width: 350px;
+    height: 100vh;
+    margin: auto
+}
+
+.alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+button {
+    height: 56px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: #f9004d;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3px 0 15px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    font-weight: bolder;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: .3s
+}
+
+.container {
+    background-image: url(back01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 15s infinite;
+    animation-timing-function: linear;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+@keyframes slide {
+    0% {
+        background-position: 0 0
+    }
+
+    25% {
+        background-image: url(back02.png)
+    }
+
+    50% {
+        background-image: url(back03.png)
+    }
+
+    75% {
+        background-image: url(back04.png)
+    }
+
+    100% {
+        background-image: url(back01.png)
+    }
+}
+
+@media screen {
+    
+}
